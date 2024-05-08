@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'TT Lakes', 'Times New Roman', sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 320px;
+	border-right: 1px solid black;
+	height: 100vh;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+.header {
+}
+.header-nav {
+	display: flex;
+	padding: 24px;
+}
+
+.header-nav__ul {
+}
+
+.header-nav__ul--left-side {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.header-nav__ul--right-side {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-left: auto;
+}
+
+.header-nav__li {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	list-style: none;
+}
+
+.header-nav__li--burger-opened {
+	background: url('../images/icons/burger-opened.svg') no-repeat;
+}
+
+.header-nav__li--logo {
+	width: 97px;
+	height: 51px;
+	margin-right: 16px;
+}
+
+.header-nav__li--search {
+	background: url('../images/icons/search.svg');
+}
