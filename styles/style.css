@@ -153,7 +153,7 @@ select {
 	transition: transform 200ms ease;
 }
 .aside-footer__mail:hover {
-	transform: translate(15px) scale(1.1);
+	color: #7e7e82;
 }
 .aside-footer__tel {
 	margin-top: 12px;
@@ -163,7 +163,7 @@ select {
 	transition: transform 200ms ease;
 }
 .aside-footer__tel:hover {
-	transform: translate(15px) scale(1.1);
+	color: #7e7e82;
 }
 
 .aside-select-language {
@@ -179,11 +179,12 @@ select {
 	transition: transform 200ms ease;
 }
 .aside-select-language__button:hover {
-	transform: scale(1.1);
+	transform: translate(0, -2.5px);
 }
 .aside-select-language__button--active {
 	color: #7e7e82;
 }
-/* .container {
-	margin-top: 100%;
-} */
+.aside-select-language__button--active:hover {
+	transform: translate(0);
+	cursor: default;
+}
