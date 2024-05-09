@@ -8,6 +8,7 @@ body {
 	font-family: 'TT Lakes', 'Times New Roman', sans-serif;
 	box-sizing: border-box;
 	height: 100%;
+	max-width: 320px;
 }
 
 input,
@@ -20,7 +21,7 @@ select {
 .aside {
 	display: flex;
 	flex-direction: column;
-	width: 320px;
+
 	min-height: 100%;
 	box-shadow: 0 0 40px 0 rgb(159, 158, 158);
 }
