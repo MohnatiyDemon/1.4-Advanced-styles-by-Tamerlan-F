@@ -21,7 +21,6 @@ select {
 .aside {
 	display: flex;
 	flex-direction: column;
-
 	min-height: 100%;
 	box-shadow: 0 0 40px 0 rgb(159, 158, 158);
 }
@@ -99,6 +98,11 @@ select {
 .aside-menu__button--active {
 	color: #7e7e82;
 	position: relative;
+}
+
+.aside-menu__button--active:hover {
+	transform: translate(0);
+	cursor: default;
 }
 .aside-menu__button--active:before {
 	content: url('../images/icons/highlight.svg');
