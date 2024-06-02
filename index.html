@@ -6,67 +6,78 @@
 		<title>1.4 Продвинутая стилизация</title>
 		<link rel="stylesheet" href="styles/style.css" />
 		<link rel="stylesheet" href="fonts/TTLakes/stylesheet.css" />
+		<script defer src="index.js"></script>
 	</head>
 	<body>
-		<aside class="aside">
-			<nav class="aside-nav">
-				<ul class="aside-nav__ul aside-nav__ul--left-side">
-					<li class="aside-nav__item aside-nav__item--burger-opened">
-						<a href="#"></a>
+		<aside class="burger">
+			<nav class="burger-nav">
+				<ul class="burger-nav__menu burger-nav__menu--left-side">
+					<li class="burger-nav__item">
+						<button
+							class="burger-nav__button burger-nav__button--burger-opened"
+						></button>
 					</li>
-					<li class="aside-nav__image aside-nav__image--logo">
-						<a href="#">
+					<li class="burger-nav__item">
+						<button class="burger-nav__image burger-nav__image--grop">
 							<img src="images/icons/group.svg" alt="Логотип компании CSP" />
-						</a>
+						</button>
 					</li>
 				</ul>
-				<ul class="aside-nav__ul aside-nav__ul--right-side">
-					<li class="aside-nav__item aside-nav__item--search">
-						<a href="#"> </a>
+				<ul class="burger-nav__menu burger-nav__menu--right-side">
+					<li class="burger-nav__item">
+						<button
+							class="burger-nav__button burger-nav__button--search"
+						></button>
 					</li>
 				</ul>
 			</nav>
 
-			<nav class="aside-menu">
-				<button class="aside-menu__button aside-menu__button--active">
+			<nav class="burger-menu">
+				<button class="burger-menu__button burger-menu__button--active">
 					Ремонт техники
 				</button>
-				<button class="aside-menu__button">Услуги и сервисы</button>
-				<button class="aside-menu__button">Копоративным клиентам</button>
-				<button class="aside-menu__button">Продавцам техники</button>
-				<button class="aside-menu__button">Партнерам</button>
-				<button class="aside-menu__button">Производителям</button>
-				<button class="aside-menu__button">Наши сервисные центры</button>
-				<button class="aside-menu__button">Контакты</button>
+				<button class="burger-menu__button">Услуги и сервисы</button>
+				<button class="burger-menu__button">Копоративным клиентам</button>
+				<button class="burger-menu__button">Продавцам техники</button>
+				<button class="burger-menu__button">Партнерам</button>
+				<button class="burger-menu__button">Производителям</button>
+				<button class="burger-menu__button">Наши сервисные центры</button>
+				<button class="burger-menu__button">Контакты</button>
 			</nav>
-			<nav class="aside-footer">
-				<ul class="aside-footer__ul">
-					<li class="aside-footer__item aside-footer__item--call">
-						<a href="#"></a>
+			<nav class="burger-footer">
+				<ul class="burger-footer__menu">
+					<li class="burger-footer__item">
+						<button
+							class="burger-footer__button burger-footer__button--call"
+						></button>
 					</li>
-					<li class="aside-footer__item aside-footer__item--chat">
-						<a href="#"></a>
+					<li class="burger-footer__item">
+						<button
+							class="burger-footer__button burger-footer__button--chat"
+						></button>
 					</li>
-					<li class="aside-footer__item aside-footer__item--profile">
-						<a href="#"></a>
+					<li class="burger-footer__item">
+						<button
+							class="burger-footer__button burger-footer__button--profile"
+						></button>
 					</li>
 				</ul>
 
-				<a class="aside-footer__mail" href="mailto:mail@cps.com"
+				<a class="burger-footer__mail" href="mailto:mail@cps.com"
 					>mail@cps.com</a
 				>
 
-				<a class="aside-footer__tel" href="tel:+78008908900">8 800 890 8900</a>
+				<a class="burger-footer__tel" href="tel:+78008908900">8 800 890 8900</a>
 			</nav>
 
-			<div class="aside-select-language">
+			<div class="burger-select-language">
 				<button
-					class="aside-select-language__button aside-select-language__button--active"
+					class="burger-select-language__button burger-select-language__button--active"
 				>
 					RU
 				</button>
-				<button class="aside-select-language__button">EN</button>
-				<button class="aside-select-language__button">CH</button>
+				<button class="burger-select-language__button">EN</button>
+				<button class="burger-select-language__button">CH</button>
 			</div>
 		</aside>
 	</body>
